@@ -1,0 +1,168 @@
+/*texto -fuente para toda la pagina*/
+*{
+	color: #A2A0A0;
+	font-family: "Open-Sans-Regular", Helvetica;
+}
+
+/* header */
+.logo{
+	width: 110px;
+}
+header ul{
+	float: right;
+	margin: 25px 0;
+}
+header ul li{
+	float: left;
+	display: inline-block;
+	padding: 10px;
+	font-family: 18px;
+}
+/*slide 1*/
+.background{
+	height: 300px;
+	background-image: url("../img/semilla.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.backGrey{
+	background-color: #F0EFEF;
+}
+.pd{
+	padding: 70px 80px;
+}
+/*Primera secci´pon con iconos*/
+.mgImg{
+	margin-left: 32%;
+}
+.txtcenter{
+	text-align: center;
+}
+.fs13{ /*REFERENTE A LA FONT SIZE 13 - PEQUEÑA EN VARIOS ICONOS*/
+	font-size: 13px;
+}
+.black{ /*TEXTO EN NEGRO*/
+	color: black;
+	font-family: Arial;
+}
+.pdt{ /*PADDING EN SECCIONES CON ICONOS -LA PRIMERA*/
+	padding: 50px 25px;
+}
+/*seccion de metologia -mitad de imagen*/
+.float{
+	float: left;
+}
+.altura{ /*INDICACIONES DE MITAD DE ANCHO PARA ESTA SECCION*/
+	height: 400px;
+	width: 50%;
+	float: left;
+}
+.imgl{ /*imagen de izquierda */
+	background-image: url("../img/metodo.jpg");
+	background-size: cover;
+	z-index: -1;
+}
+.imgd{ /*IMAGEN DE DERECHA FONDO DE METODOLOGIA*/
+	background-image: url("../img/fondo.jpg");
+	background-size: cover;
+	z-index: -1;
+}
+/*TEXTO ENCIMA DE LADO VERDE*/
+.pdtv{
+	padding: 10%;
+}
+.iconcenter{
+	margin: 7% 45% 5% 45%;
+}
+.mg1{ /*MARGENES DEL TEXTO INTERNO DEL BLOQUE METODOLOGIA*/
+	margin: 20px 15px 20px;
+	color: white;
+	font-family: Arial;
+}
+/*seccion servicios*/
+.darkgrey{
+	color: #545252;
+}
+.mgtservice{ /*MARGEN DE P EN SERVICIOS*/
+	margin: 15px;
+}
+.fs11{
+	font-size: 11px;
+}
+.mgImg2{
+	margin-left: 28%;
+}
+.pdl{
+	padding: 0 60px;
+	font-family: Arial;
+}
+.mgtrow{ /*margen del ultimo row con iconos*/
+	margin-top: 50px;
+}
+/*Seccion de proyectos fondo verde */
+.fondoVerde{
+	background-color: #4E8F26;
+}
+.ancho{
+	width: 100%;
+}
+.bco{
+	color: white;
+}
+.pdb{
+	padding-bottom: 20px;
+}
+.pdtotal{
+	padding: 60px;
+}
+.mgtrow2{ /*margen del segundo parrafo */
+	margin-top: 130px;
+}
+/*seccion equipo*/
+.circle{
+	border-radius: 100%;
+}
+.margin{
+	margin: 40px;
+}
+.tercio{
+	width: 70%;
+}
+.mgtredes{
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+/*seccion blog*/
+.fondotextura{
+	background-image: url("../img/fondo2.jpg");
+}
+/*redes sociales ultima seccion*/
+.borde{
+	border:1px solid #BEBABA;
+}
+.grisoscuro{
+	background-color: #504E4E;
+}
+.pd15{
+	padding: 15px;
+}
+.mgbot{ /*margen de abajo de titulo redes*/
+	margin-bottom: 110px;
+}
+.mgbajo{
+	margin-bottom: 10px;
+}
+
+/*footer*/
+.yellow{
+	color: #FABD17;
+}
+footer{
+	background: #EAE8E8;
+	padding: 30px 0;
+}
+.right ul{
+	float: right;
+	list-style: none;
+	text-align: right;
+}
