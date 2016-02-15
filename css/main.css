@@ -164,6 +164,9 @@ header ul li{
 .mgbajo{
 	margin-bottom: 10px;
 }
+.noline{
+	text-decoration: none;
+}
 
 /*footer*/
 .yellow{
