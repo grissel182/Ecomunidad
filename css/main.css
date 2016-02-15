@@ -136,6 +136,18 @@ header ul li{
 .fondotextura{
 	background-image: url("../img/fondo2.jpg");
 }
+.prev{
+	position: relative;
+	top: 180px;
+	left: 125px;
+	display: inline-block;
+}
+.next{
+	position: relative;
+	top: 180px;
+	left: 1120px;
+	display: inline-block;
+}
 /*redes sociales ultima seccion*/
 .borde{
 	border:1px solid #BEBABA;
